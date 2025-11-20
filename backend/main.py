@@ -24,6 +24,7 @@ app = FastAPI(title="WhatsApp Review Collector", version="1.0.0")
 origins = [
     "http://localhost",
     "http://localhost:5173",
+    "https://whatsapp-collector.vercel.app",  
 ]
 
 app.add_middleware(
